@@ -1,0 +1,16 @@
+
+
+<h1>Reset Password</h1>
+
+
+<%= form_for :user ,:url=>password_resets_path,:method => :post do |f| %>
+ 
+    <p>
+    <%= f.label :email %>
+    <%= f.text_field :email%>   
+    <p>
+    <p>
+     <%= f.file_field :photo %>
+    </p> 
+  <%= f.submit "Reset Password" %>
+<% end %>
