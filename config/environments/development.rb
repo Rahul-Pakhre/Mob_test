@@ -46,8 +46,8 @@
    address:              'smtp.gmail.com',
    port:                  587,
    domain:               'google.com',
-   user_name:            'rahul.pakhre@mobiloittegroup.com',
-   password:             'pakhre_24',
+   user_name:            'xxxxxxxx',
+   password:             'xxxxxxx',
    authentication:       'plain',
    enable_starttls_auto: true  }
  end
